@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13311" started-at="2020-07-15T23:34:44 CEST" finished-at="2020-07-15T23:34:58 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13311" started-at="2020-07-15T23:34:44 CEST" finished-at="2020-07-15T23:34:58 CEST">
+      <class name="test_case.Zad3Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test_case.Zad3Test@7494e528]" name="setUp" is-config="true" duration-ms="11992" started-at="2020-07-15T23:34:45 CEST" finished-at="2020-07-15T23:34:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnBtn()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickOnBtn" duration-ms="93" started-at="2020-07-15T23:34:57 CEST" finished-at="2020-07-15T23:34:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBtn -->
+        <test-method status="PASS" signature="clickRB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickRB" duration-ms="77" started-at="2020-07-15T23:34:57 CEST" finished-at="2020-07-15T23:34:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRB -->
+        <test-method status="PASS" signature="enterPB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="enterPB" duration-ms="207" started-at="2020-07-15T23:34:57 CEST" finished-at="2020-07-15T23:34:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPB -->
+        <test-method status="PASS" signature="hiddenTxt()[pri:0, instance:test_case.Zad3Test@7494e528]" name="hiddenTxt" duration-ms="55" started-at="2020-07-15T23:34:57 CEST" finished-at="2020-07-15T23:34:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hiddenTxt -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:test_case.Zad3Test@7494e528]" name="TearDown" is-config="true" duration-ms="824" started-at="2020-07-15T23:34:57 CEST" finished-at="2020-07-15T23:34:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test_case.Zad3Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
