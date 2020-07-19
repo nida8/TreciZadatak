@@ -6,7 +6,9 @@
       <class name="test_case.Zad3Test">
         <methods>
           <include name="setUp"/>
-          <include name="checkTxt"/>
+          <include name="selectTur"/>
+          <include name="oNahlinTim"/>
+          <include name="reorder"/>
         </methods>
       </class> <!-- test_case.Zad3Test -->
     </classes>
