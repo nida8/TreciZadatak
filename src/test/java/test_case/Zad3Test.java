@@ -37,6 +37,27 @@ public class Zad3Test extends BaseTest {
 	}
 	
 	
+	//3. Check that Emu checkbox is disabled
+	public void EmuDisabled(){
+		
+		HomePage home = getDriver();
+		home.CheckEmuIsDisabled();
+		System.out.println("Emu checkbox is disabled");
+        
+	}
+	
+	
+	//4. Verify that total number of checkboxes is 6
+	
+public void chkBoxes(){
+		
+		HomePage home = getDriver();
+		int number = home.NumberOfCheckboxes();
+		Assert.assertEquals(number, 6, "Number of checkboxes is not 6");
+        
+	}
+	
+	
 	//5. Select Radio button Jezeva kucica
 	
 	public void clickRB(){
@@ -72,6 +93,16 @@ public class Zad3Test extends BaseTest {
 		
 		
 	}
+	
+	
+	//9. Get total number of rows for table "Podaci o studentima". Note: exclude title row
+	public void TableRows(){
+		
+		HomePage home = getDriver();
+		home.NumberOfRows();
+		
+	}
+	
 	
 	//11. Click on "Click to open a new browser window!" button 
 	public void openNBW(){

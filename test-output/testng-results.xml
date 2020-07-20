@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="10" passed="7">
+<testng-results skipped="0" failed="3" ignored="0" total="13" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34693" started-at="2020-07-19T23:03:35 CEST" finished-at="2020-07-19T23:04:09 CEST">
+  <suite name="Default suite" duration-ms="35552" started-at="2020-07-20T23:13:05 CEST" finished-at="2020-07-20T23:13:40 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34693" started-at="2020-07-19T23:03:35 CEST" finished-at="2020-07-19T23:04:09 CEST">
+    <test name="Default test" duration-ms="35552" started-at="2020-07-20T23:13:05 CEST" finished-at="2020-07-20T23:13:40 CEST">
       <class name="test_case.Zad3Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test_case.Zad3Test@7494e528]" name="setUp" is-config="true" duration-ms="15609" started-at="2020-07-19T23:03:35 CEST" finished-at="2020-07-19T23:03:50 CEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test_case.Zad3Test@7494e528]" name="setUp" is-config="true" duration-ms="15670" started-at="2020-07-20T23:13:05 CEST" finished-at="2020-07-20T23:13:20 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnBtn()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickOnBtn" duration-ms="136" started-at="2020-07-19T23:03:50 CEST" finished-at="2020-07-19T23:03:51 CEST">
+        <test-method status="PASS" signature="EmuDisabled()[pri:0, instance:test_case.Zad3Test@7494e528]" name="EmuDisabled" duration-ms="131" started-at="2020-07-20T23:13:20 CEST" finished-at="2020-07-20T23:13:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmuDisabled -->
+        <test-method status="PASS" signature="TableRows()[pri:0, instance:test_case.Zad3Test@7494e528]" name="TableRows" duration-ms="106" started-at="2020-07-20T23:13:20 CEST" finished-at="2020-07-20T23:13:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableRows -->
+        <test-method status="PASS" signature="chkBoxes()[pri:0, instance:test_case.Zad3Test@7494e528]" name="chkBoxes" duration-ms="51" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkBoxes -->
+        <test-method status="PASS" signature="clickOnBtn()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickOnBtn" duration-ms="117" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:21 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnBtn -->
-        <test-method status="PASS" signature="clickRB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickRB" duration-ms="123" started-at="2020-07-19T23:03:51 CEST" finished-at="2020-07-19T23:03:51 CEST">
+        <test-method status="PASS" signature="clickRB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="clickRB" duration-ms="109" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:21 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRB -->
-        <test-method status="PASS" signature="enterPB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="enterPB" duration-ms="305" started-at="2020-07-19T23:03:51 CEST" finished-at="2020-07-19T23:03:51 CEST">
+        <test-method status="PASS" signature="enterPB()[pri:0, instance:test_case.Zad3Test@7494e528]" name="enterPB" duration-ms="369" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:21 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPB -->
-        <test-method status="PASS" signature="hiddenTxt()[pri:0, instance:test_case.Zad3Test@7494e528]" name="hiddenTxt" duration-ms="58" started-at="2020-07-19T23:03:51 CEST" finished-at="2020-07-19T23:03:51 CEST">
+        <test-method status="PASS" signature="hiddenTxt()[pri:0, instance:test_case.Zad3Test@7494e528]" name="hiddenTxt" duration-ms="115" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:21 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hiddenTxt -->
-        <test-method status="PASS" signature="moveMouse()[pri:0, instance:test_case.Zad3Test@7494e528]" name="moveMouse" duration-ms="233" started-at="2020-07-19T23:03:51 CEST" finished-at="2020-07-19T23:03:51 CEST">
+        <test-method status="PASS" signature="moveMouse()[pri:0, instance:test_case.Zad3Test@7494e528]" name="moveMouse" duration-ms="216" started-at="2020-07-20T23:13:21 CEST" finished-at="2020-07-20T23:13:22 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveMouse -->
-        <test-method status="FAIL" signature="oNahlinTim()[pri:0, instance:test_case.Zad3Test@7494e528]" name="oNahlinTim" duration-ms="5304" started-at="2020-07-19T23:03:51 CEST" finished-at="2020-07-19T23:03:57 CEST">
+        <test-method status="FAIL" signature="oNahlinTim()[pri:0, instance:test_case.Zad3Test@7494e528]" name="oNahlinTim" duration-ms="5251" started-at="2020-07-20T23:13:22 CEST" finished-at="2020-07-20T23:13:27 CEST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#menu\-item\-22"}
@@ -40,8 +52,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=id, value=menu-item-22}]]>
             </message>
             <full-stacktrace>
@@ -51,8 +63,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=id, value=menu-item-22}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -68,8 +80,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
 at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pages.HomePage.oNamaTim(HomePage.java:120)
-at test_case.Zad3Test.oNahlinTim(Zad3Test.java:100)
+at pages.HomePage.oNamaTim(HomePage.java:145)
+at test_case.Zad3Test.oNahlinTim(Zad3Test.java:131)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -104,11 +116,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oNahlinTim -->
-        <test-method status="PASS" signature="openNBW()[pri:0, instance:test_case.Zad3Test@7494e528]" name="openNBW" duration-ms="297" started-at="2020-07-19T23:03:57 CEST" finished-at="2020-07-19T23:03:57 CEST">
+        <test-method status="PASS" signature="openNBW()[pri:0, instance:test_case.Zad3Test@7494e528]" name="openNBW" duration-ms="319" started-at="2020-07-20T23:13:27 CEST" finished-at="2020-07-20T23:13:27 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openNBW -->
-        <test-method status="FAIL" signature="reorder()[pri:0, instance:test_case.Zad3Test@7494e528]" name="reorder" duration-ms="7410" started-at="2020-07-19T23:03:57 CEST" finished-at="2020-07-19T23:04:04 CEST">
+        <test-method status="FAIL" signature="reorder()[pri:0, instance:test_case.Zad3Test@7494e528]" name="reorder" duration-ms="7827" started-at="2020-07-20T23:13:27 CEST" finished-at="2020-07-20T23:13:35 CEST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#clickAndHold"}
@@ -117,8 +129,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=id, value=clickAndHold}]]>
             </message>
             <full-stacktrace>
@@ -128,8 +140,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=id, value=clickAndHold}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -145,8 +157,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
 at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pages.HomePage.dragAndDropIt(HomePage.java:145)
-at test_case.Zad3Test.reorder(Zad3Test.java:109)
+at pages.HomePage.dragAndDropIt(HomePage.java:170)
+at test_case.Zad3Test.reorder(Zad3Test.java:140)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -181,7 +193,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reorder -->
-        <test-method status="FAIL" signature="selectTur()[pri:0, instance:test_case.Zad3Test@7494e528]" name="selectTur" duration-ms="5107" started-at="2020-07-19T23:04:04 CEST" finished-at="2020-07-19T23:04:09 CEST">
+        <test-method status="FAIL" signature="selectTur()[pri:0, instance:test_case.Zad3Test@7494e528]" name="selectTur" duration-ms="5063" started-at="2020-07-20T23:13:35 CEST" finished-at="2020-07-20T23:13:40 CEST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Nahla Course"]"}
@@ -190,8 +202,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=xpath, value=//*[@id="Nahla Course"]}]]>
             </message>
             <full-stacktrace>
@@ -201,8 +213,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-7SFELJ4', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58bd79d0200887d6a06cf6e46e55746e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 553f9ec2052443a94f37de9cb731d18c
 *** Element info: {Using=xpath, value=//*[@id="Nahla Course"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -218,8 +230,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pages.HomePage.selectCourse(HomePage.java:61)
-at test_case.Zad3Test.selectTur(Zad3Test.java:56)
+at pages.HomePage.selectCourse(HomePage.java:81)
+at test_case.Zad3Test.selectTur(Zad3Test.java:77)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -254,7 +266,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTur -->
-        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:test_case.Zad3Test@7494e528]" name="verifyUrl" duration-ms="25" started-at="2020-07-19T23:04:09 CEST" finished-at="2020-07-19T23:04:09 CEST">
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:test_case.Zad3Test@7494e528]" name="verifyUrl" duration-ms="23" started-at="2020-07-20T23:13:40 CEST" finished-at="2020-07-20T23:13:40 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->

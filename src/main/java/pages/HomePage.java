@@ -3,6 +3,7 @@ package pages;
 
 
 
+import java.util.List;
 import java.util.Set; 
 
 import org.openqa.selenium.By;
@@ -25,14 +26,14 @@ public class HomePage{
 	private By bottom = By.id("clickAndHold");
 	private By top = By.id("click");
 	//private By mouseOver = By.id("demo2");
- 
-	
+	private By emu = By.id("emu-checkbox");
 	
 	public HomePage(WebDriver driver){
 		
 		this.driver = driver;
 	}
 	
+	//1
 	public HomePage clickBtn() {
 		
 		driver.findElement(hideBtn).click();
@@ -40,12 +41,31 @@ public class HomePage{
 		return new HomePage(driver);
 	}
 	
+	//2
 	public String getHiddenTxt() {
 		
 		return driver.findElement(By.id("displayed-text")).getText();
 	}
 	
+	//3
 	
+	public void CheckEmuIsDisabled() {
+		
+		driver.findElement(emu).isEnabled();
+	
+	}
+	
+	//4
+	public int NumberOfCheckboxes () {
+		List<WebElement> checkboxList = driver.findElements(By.cssSelector("[type=\"checkbox\"]"));
+		System.out.println("Number of checkboxes is: " + checkboxList.size());
+		return checkboxList.size();
+		}
+	
+	
+	
+	
+	//5
 	public void clickRadioBtn() {
 		
 		driver.findElement(By.cssSelector("input[value=\"Jezeva kucica\"]")).click();
@@ -81,7 +101,12 @@ public class HomePage{
 	
 	
 	 }
-	
+	 
+	 //9
+	 public void NumberOfRows() {
+		int rows = driver.findElements(By.xpath("//table[@id='studentTable']/tbody/tr")).size()-1;
+		System.out.println("Total number of rows in the table is: "+ rows);
+	 }
 	 
 	 //11
 	 public void opnNewWin(String elementId){
